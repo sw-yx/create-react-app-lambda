@@ -3,10 +3,9 @@
   "version": "0.3.0",
   "private": true,
   "dependencies": {
-    "netlify-lambda": "^0.4.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "^2.0.0-next.a671462c"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,5 +22,21 @@
         "^/\\.netlify/functions": ""
       }
     }
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.0.0-rc.2",
+    "@babel/plugin-transform-object-assign": "^7.0.0-rc.2"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">0.25%",
+      "not op_mini all",
+      "ie 11"
+    ]
   }
 }
